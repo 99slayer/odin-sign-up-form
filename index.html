@@ -14,9 +14,9 @@
 <body>
     <div class="main">
         <div class="imageContainer">
-            <div class="banner">SIGNUP</div>
+            <div class="bannerCont"><p class="banner">SIGN UP</p></div>
             <img src="https://images.pexels.com/photos/11661713/pexels-photo-11661713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="A black and white photo of an apartment complex">
-            <div class="imgCredit">image by <a>Fleur van Deijck</a></div>
+            <div class="imgCredit">image by <a href="https://www.pexels.com/@fleur-van-deijck-198852659/">Fleur van Deijck</a></div>
         </div>
 
         <div class="contentContainer">
@@ -26,37 +26,37 @@
             <div class="subCont Two">
                 <div><h2>Sign up!</h2></div>
                 <div class="formContainer">
-                    <form action="" method="">
+                    <form action="mywebserver.fa.ke" method="post">
                         <p>
                             <label for="firstNameInput">first name</label>
-                            <input type="text" id="firstNameInput" name="">
+                            <input type="text" id="firstNameInput" name="firstName" maxlength="20" required>
                         </p>
                         <p>
                             <label for="lastNameInput">last name</label>
-                            <input type="text" id="lastNameInput" name="">
+                            <input type="text" id="lastNameInput" name="lastName" maxlength="20" required>
                         </p>
                         <p>
                             <label for="emailInput">email</label>
-                            <input type="email" id="emailInput" name="">
+                            <input type="email" id="emailInput" name="email" required>
                         </p>
                         <p>
                             <label for="phoneNumInput">phone number</label>
-                            <input type="tel" id="phoneNumInput" name="">
+                            <input type="tel" id="phoneNumInput" name="phoneNumber" required>
                         </p>
                         <p>
                             <label for="passInput">password</label>
-                            <input type="text" id="passInput" name="">
+                            <input type="password" id="passInput" name="password" required>
                         </p>
                         <p>
                             <label for="passConfirmationInput">confirm password</label>
-                            <input type="text" id="passConfirmationInput" name="">
+                            <input type="text" id="passConfirmationInput" name="passwordConfirmation" required>
                         </p>
                     </form>
                 </div>
             </div>
             <div class="subCont Three">
-                <button>create account</button>
-                <p>Already have an account?<a href="">Log in</a></p>
+                <button class="submitButton" type="submit">Create account</button>
+                <p>Already have an account? <a href="">Log in</a></p>
             </div>
         </div>
     </div>
