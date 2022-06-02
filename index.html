@@ -41,15 +41,15 @@
                         </p>
                         <p>
                             <label for="phoneNumInput">phone number</label>
-                            <input type="tel" id="phoneNumInput" name="phoneNumber" required>
+                            <input type="tel" id="phoneNumInput" name="phoneNumber" pattern="\d{10}" required>
                         </p>
                         <p>
                             <label for="passInput">password</label>
-                            <input type="password" id="passInput" name="password" required>
+                            <input type="password" id="passInput" name="password" minlength="8" title="Your password must be at least 8 characters long." required>
                         </p>
                         <p>
                             <label for="passConfirmationInput">confirm password</label>
-                            <input type="text" id="passConfirmationInput" name="passwordConfirmation" required>
+                            <input type="password" id="passConfirmationInput" name="passwordConfirmation" minlength="8" required>
                         </p>
                     </form>
                 </div>

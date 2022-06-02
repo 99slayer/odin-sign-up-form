@@ -154,18 +154,18 @@ label{
     text-transform: uppercase;
 }
 input{
-    /* appearance: none; */
     font-size: 0.95em;
     padding: 5px 15px;
-    border: 1px solid var(--light-grey);
+    border: 2px solid var(--light-grey);
     border-radius: 5px;
 }
 input:valid{
     border: 2px solid green;
 }
-/* input:invalid{
-    border: 1px solid red;
-} */
+input:focus{
+    border: 2px solid rgb(100, 100, 100);
+    outline: none;
+}
 a{
     text-decoration: none;
     color: var(--light-grey);
