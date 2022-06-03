@@ -166,6 +166,9 @@ input:focus{
     border: 2px solid rgb(100, 100, 100);
     outline: none;
 }
+input:valid:focus{
+    border: 2px solid green;
+}
 a{
     text-decoration: none;
     color: var(--light-grey);
